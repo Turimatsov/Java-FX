@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="window" prefHeight="201.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kursova.javafx.AdminController">
+   <children>
+      <ImageView fitHeight="220.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@123.jpg.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ime" layoutX="88.0" layoutY="61.0" />
+      <TextField fx:id="parola" layoutX="88.0" layoutY="111.0" />
+      <Button layoutX="137.0" layoutY="145.0" mnemonicParsing="false" onAction="#adminEvent" text="Вход">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="108.0" layoutY="39.0" text="Потребителско име">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="92.0" text="Парола">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
