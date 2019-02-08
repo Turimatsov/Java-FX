@@ -31,7 +31,7 @@
           </Menu>
           <Menu fx:id="spravki" mnemonicParsing="false" text="Изготвено от">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#IzgotvenoEvent" text="Студенти" />
+              <MenuItem mnemonicParsing="false" onAction="#IzgotvenoEvent" text="Студент" />
             </items>
           </Menu>
         </menus>
